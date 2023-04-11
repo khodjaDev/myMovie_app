@@ -1,0 +1,43 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  button[id="search-botton"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fcfaf7;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  h1 {
+    color: rgb(21, 18, 1);
+    background-color: rgb(10, 203, 225);
+  }
+
+  Label[for="movie-input"] {
+    padding: 10px 20px;
+    background-color: #ff9500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
